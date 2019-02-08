@@ -6,7 +6,7 @@ namespace Stopwatch
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var stopWatch = new TimeSpan();
         }
     }
 }
