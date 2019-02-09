@@ -6,33 +6,35 @@ namespace Timer
 {
     class Program
     {
-            static void Main(string[] args)
-    {
-        Stopwatch stopWatch = new Stopwatch();
-        System.Console.WriteLine("pres start or stop");
-        string input = Console.ReadLine();
-        bool start = false;
-        bool enter = String.IsNullOrEmpty(input);
-
-        if (enter == false)
-            start = !start;
-
-        if (start == true)
+        static void Main(string[] args)
         {
-            stopWatch.Start();
-        }
-        else
-        {
-        stopWatch.Stop();
-        }
-        // Get the elapsed time as a TimeSpan value.
-        TimeSpan ts = stopWatch.Elapsed;
+            Stopwatch stopWatch = new Stopwatch();
+            System.Console.WriteLine("pres start or stop or type quit to exit");
+            string input = Console.ReadLine();
+            bool start = false;
+            while ( input != "quit" )
+            {
+            input = Console.ReadLine();
+            bool enter = String.IsNullOrEmpty(input);
+            TimeSpan ts = stopWatch.Elapsed;
 
-        // Format and display the TimeSpan value.
-        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-            ts.Hours, ts.Minutes, ts.Seconds,
-            ts.Milliseconds / 10);
-        Console.WriteLine("RunTime " + elapsedTime);
-    }
+                if (enter == false)
+                    start = !start;
+
+                if (start == true)
+                {
+                    stopWatch.Start();
+                }
+                else
+                {
+                stopWatch.Stop();
+                }
+            string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                ts.Hours, ts.Minutes, ts.Seconds,
+                ts.Milliseconds / 10);
+            Console.WriteLine("RunTime " + elapsedTime);
+                
+            }
+        }
     }
 }
