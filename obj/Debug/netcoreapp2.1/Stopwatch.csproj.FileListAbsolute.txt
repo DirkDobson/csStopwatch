@@ -1,0 +1,11 @@
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/bin/Debug/netcoreapp2.1/Stopwatch.deps.json
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/bin/Debug/netcoreapp2.1/Stopwatch.runtimeconfig.json
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/bin/Debug/netcoreapp2.1/Stopwatch.runtimeconfig.dev.json
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/bin/Debug/netcoreapp2.1/Stopwatch.dll
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/bin/Debug/netcoreapp2.1/Stopwatch.pdb
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.csprojAssemblyReference.cache
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.csproj.CoreCompileInputs.cache
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.AssemblyInfoInputs.cache
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.AssemblyInfo.cs
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.dll
+/Users/dirkvancouver/Desktop/Projects/c#Intermediate/Stopwatch/obj/Debug/netcoreapp2.1/Stopwatch.pdb

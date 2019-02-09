@@ -9,9 +9,22 @@ namespace Timer
             static void Main(string[] args)
     {
         Stopwatch stopWatch = new Stopwatch();
-        stopWatch.Start();
-        Thread.Sleep(10000);
+        System.Console.WriteLine("pres start or stop");
+        string input = Console.ReadLine();
+        bool start = false;
+        bool enter = String.IsNullOrEmpty(input);
+
+        if (enter == false)
+            start = !start;
+
+        if (start == true)
+        {
+            stopWatch.Start();
+        }
+        else
+        {
         stopWatch.Stop();
+        }
         // Get the elapsed time as a TimeSpan value.
         TimeSpan ts = stopWatch.Elapsed;
 
