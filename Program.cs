@@ -9,7 +9,7 @@ namespace Timer
         static void Main(string[] args)
         {
             Stopwatch stopWatch = new Stopwatch();
-            System.Console.WriteLine("pres start or stop or type quit to exit");
+            System.Console.WriteLine("press anybutton to start or stop or type quit to exit");
             string input = Console.ReadLine();
             bool start = false;
             while ( input != "quit" )
@@ -24,11 +24,14 @@ namespace Timer
                 if (start == true)
                 {
                     stopWatch.Start();
+                    System.Console.WriteLine(start);
                 }
                 else
                 {
                 stopWatch.Stop();
+                System.Console.WriteLine(start);
                 }
+
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
                 ts.Hours, ts.Minutes, ts.Seconds,
                 ts.Milliseconds / 10);
